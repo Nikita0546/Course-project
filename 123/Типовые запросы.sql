@@ -1,0 +1,15 @@
+-- Ищем человека с ФИО Терешин А. И. 
+-- SELECT * FROM mdk1101.contact
+-- where full_name = 'Терешин А. И.';
+-- Проверяем его паспорт 
+-- SELECT * FROM mdk1101.passport
+-- where Contact_id = 2;
+-- Смотрим кем он является юр. лицом(1) или физ. лицом(0)
+-- SELECT * FROM mdk1101.client
+-- where id = 2;
+-- Проверяем мчд 
+-- select * from  mrp
+-- where Client_id = 2;
+-- смотрим какой тахограф установлен
+-- SELECT * FROM mdk1101.tachograph
+-- where Client_id = 2;
